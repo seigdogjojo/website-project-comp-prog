@@ -21,10 +21,11 @@ components:
     layout_properties: {}
     event_bindings: {click: cart_click}
   - name: signin
-    properties: {text: Sign in, icon: 'fa:sign-in', spacing_above: small, spacing_below: small,
+    properties: {text: Sign in, icon: 'fa:user', spacing_above: small, spacing_below: small,
       col_spacing: medium, foreground: 'theme:Secondary 500', font_size: 15}
     type: Link
     layout_properties: {}
+    event_bindings: {click: signin_click}
 - name: title
   properties: {text: ᴛᴀɴᴜᴋɪ ᴘɪxᴇʟꜱ, align: center, bold: true, italic: false, underline: false,
     foreground: 'theme:Black', icon: '', font: ''}
