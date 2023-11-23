@@ -17,7 +17,7 @@ name: Website Project COMP PROG
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
 metadata: {title: Tanuki Pixels, logo_img: 'asset:orange purple minimalist happy shop
-    logo-logo.png'}
+    logo-logo.png', description: it mag click hini na link mahuhuck ang fb}
 startup_form: null
 db_schema:
   users:
