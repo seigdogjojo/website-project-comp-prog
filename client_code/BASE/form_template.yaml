@@ -2,7 +2,7 @@ is_package: true
 container:
   type: HtmlTemplate
   properties: {html: '@theme:standard-page.html', visible: true, background: 'theme:Secondary
-      700'}
+      700', foreground: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -15,17 +15,21 @@ components:
   layout_properties: {slot: nav-right}
   components:
   - name: cart
-    properties: {text: '', icon: 'fa:shopping-cart', spacing_above: small, foreground: 'theme:Black'}
+    properties: {text: '', icon: 'fa:shopping-cart', spacing_above: small, foreground: 'theme:Secondary
+        500', font_size: 15}
     type: Link
     layout_properties: {}
   - name: signin
     properties: {text: Sign in, icon: 'fa:sign-in', spacing_above: small, spacing_below: small,
-      col_spacing: medium, foreground: 'theme:Black'}
+      col_spacing: medium, foreground: 'theme:Secondary 500', font_size: 15}
     type: Link
     layout_properties: {}
 - name: title
-  properties: {text: TANUKI PIXELS DIORAMA STORE, align: left, bold: true, italic: false,
-    underline: false, foreground: 'theme:Black'}
+  properties: {text: 'TANUKI PIXELS ', align: left, bold: true, italic: false, underline: false,
+    foreground: 'theme:Black', icon: '', font: ''}
   type: Link
   layout_properties: {slot: title}
   event_bindings: {click: title_click}
+  data_bindings:
+  - {property: icon, code: 'self.item['''']', writeback: false}
+  components: []

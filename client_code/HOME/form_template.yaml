@@ -1,0 +1,26 @@
+container: {type: ColumnPanel}
+components:
+- name: tanuki_image
+  properties: {source: _/theme/output-onlinegiftools.gif, height: 210}
+  type: Image
+  layout_properties: {grid_position: 'AGWTLV,HXMAXP'}
+- name: welcome_text
+  properties: {content: "\ud83c\udf89 Hello and welcome to Tanuki Pixels, your enchanting\
+      \ haven for all things diorama! \ud83c\udf1f\n\nAt Tanuki Pixels, we believe\
+      \ in the magic of creating miniature worlds that capture the imagination and\
+      \ tell unique stories. Our passion for dioramas shines through in every meticulously\
+      \ crafted piece, each ready to transport you to a world of wonder.\n\n\ud83c\
+      \udf08 Discover Your Tiny Wonderland:\nExplore our collection of handcrafted\
+      \ dioramas, where every scene is a work of art. From whimsical forest landscapes\
+      \ to your childhood games, each diorama is a testament to the creativity and\
+      \ dedication of our talented artisans.", background: 'theme:Primary 500', font_size: 17,
+    font: '', align: left, format: markdown}
+  type: RichText
+  layout_properties: {grid_position: 'VNRLKI,YDWBPU'}
+  components: []
+- name: button_1
+  properties: {text: proceed to shop, role: secondary-color, bold: true, font_size: 15,
+    italic: true, icon: 'fa:arrow-circle-o-right'}
+  type: Button
+  layout_properties: {grid_position: 'QAFTVU,YPLDIR'}
+is_package: true
