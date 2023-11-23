@@ -1,17 +1,11 @@
-container: {type: ColumnPanel}
+container:
+  type: ColumnPanel
+  properties: {background: ''}
 components:
 - name: image_1
-  properties: {}
+  properties: {source: _/theme/orange purple minimalist happy shop logo.png, height: 350}
   type: Image
-  layout_properties: {grid_position: 'AGWTLV,SUHEMD'}
-- name: tanuki_image
-  properties: {source: _/theme/output-onlinegiftools.gif, height: 210}
-  type: Image
-  layout_properties: {grid_position: 'AGWTLV,HXMAXP'}
-- name: image_2
-  properties: {}
-  type: Image
-  layout_properties: {grid_position: 'AGWTLV,YPATJL'}
+  layout_properties: {grid_position: 'AHZQZN,IIRBPZ'}
 - name: welcome_text
   properties: {content: "\ud83c\udf89 Hello and welcome to Tanuki Pixels, your enchanting\
       \ haven for all things diorama! \ud83c\udf1f\n\nAt Tanuki Pixels, we believe\
@@ -24,7 +18,7 @@ components:
       \ dedication of our talented artisans.", background: 'theme:White', font_size: 17,
     font: CRAIG, align: left, format: markdown}
   type: RichText
-  layout_properties: {grid_position: 'VNRLKI,YDWBPU'}
+  layout_properties: {grid_position: 'PFRLAM,OHLWHT'}
   components: []
 - name: button_1
   properties: {text: proceed to shop, role: primary-color, bold: true, font_size: 15,
