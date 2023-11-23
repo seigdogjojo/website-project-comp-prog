@@ -2,27 +2,35 @@ container:
   type: ColumnPanel
   properties: {background: ''}
 components:
-- name: image_1
-  properties: {source: _/theme/orange purple minimalist happy shop logo.png, height: 350}
-  type: Image
-  layout_properties: {grid_position: 'AHZQZN,IIRBPZ'}
-- name: welcome_text
-  properties: {content: "\ud83c\udf89 Hello and welcome to Tanuki Pixels, your enchanting\
-      \ haven for all things diorama! \ud83c\udf1f\n\nAt Tanuki Pixels, we believe\
-      \ in the magic of creating miniature worlds that capture the imagination and\
-      \ tell unique stories. Our passion for dioramas shines through in every meticulously\
-      \ crafted piece, each ready to transport you to a world of wonder.\n\n\ud83c\
-      \udf08 Discover Your Tiny Wonderland:\nExplore our collection of handcrafted\
-      \ dioramas, where every scene is a work of art. From whimsical forest landscapes\
-      \ to your childhood games, each diorama is a testament to the creativity and\
-      \ dedication of our talented artisans.", background: 'theme:White', font_size: 17,
-    font: CRAIG, align: left, format: markdown}
-  type: RichText
-  layout_properties: {grid_position: 'PFRLAM,OHLWHT'}
-  components: []
-- name: button_1
-  properties: {text: proceed to shop, role: primary-color, bold: true, font_size: 15,
-    italic: true, icon: 'fa:arrow-circle-o-right'}
-  type: Button
-  layout_properties: {grid_position: 'QAFTVU,YPLDIR'}
+- name: content_panel
+  properties: {}
+  type: ColumnPanel
+  layout_properties: {grid_position: 'NRAXSH,CGZHIY'}
+  components:
+  - name: image_1
+    properties: {source: _/theme/orange purple minimalist happy shop logo.png, height: 350,
+      horizontal_align: center, vertical_align: top, spacing_above: none, spacing_below: none}
+    type: Image
+    layout_properties: {grid_position: 'TSBCMW,BJOOFC'}
+    event_bindings: {mouse_enter: image_1_mouse_enter}
+  - name: welcome_text
+    properties: {content: "\ud83c\udf89 Hello and welcome to Tanuki Pixels, your enchanting\
+        \ haven for all things diorama! \ud83c\udf1f\n\nAt Tanuki Pixels, we believe\
+        \ in the magic of creating miniature worlds that capture the imagination and\
+        \ tell unique stories. Our passion for dioramas shines through in every meticulously\
+        \ crafted piece, each ready to transport you to a world of wonder.\n\n\ud83c\
+        \udf08 Discover Your Tiny Wonderland:\nExplore our collection of handcrafted\
+        \ dioramas, where every scene is a work of art. From whimsical forest landscapes\
+        \ to your childhood games, each diorama is a testament to the creativity and\
+        \ dedication of our talented artisans.", background: 'theme:White', font_size: 17,
+      font: CRAIG, align: left, format: markdown}
+    type: RichText
+    layout_properties: {grid_position: 'QUACAU,VVPTQE'}
+    components: []
+  - name: items_button
+    properties: {text: proceed to shop, role: primary-color, bold: true, font_size: 15,
+      italic: true, icon: 'fa:arrow-circle-o-right'}
+    type: Button
+    layout_properties: {grid_position: 'YIDVNJ,PLQSSJ'}
+    event_bindings: {click: items_button_click}
 is_package: true
