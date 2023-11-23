@@ -14,22 +14,18 @@ components:
   name: navbar_links
   layout_properties: {slot: nav-right}
   components:
-  - name: link_2
-    properties: {text: SIGN UP, icon: 'fa:sign-in', spacing_above: small}
+  - name: cart
+    properties: {text: '', icon: 'fa:shopping-cart', spacing_above: small, foreground: 'theme:Black'}
     type: Link
     layout_properties: {}
   - name: signin
     properties: {text: Sign in, icon: 'fa:sign-in', spacing_above: small, spacing_below: small,
-      col_spacing: medium}
+      col_spacing: medium, foreground: 'theme:Black'}
     type: Link
     layout_properties: {}
-- name: facebook
-  properties: {icon: 'fa:facebook-f'}
+- name: title
+  properties: {text: TANUKI PIXELS DIORAMA STORE, align: left, bold: true, italic: false,
+    underline: false, foreground: 'theme:Black'}
   type: Link
   layout_properties: {slot: title}
-  components:
-  - name: homepage
-    properties: {text: TANUKI PIXELS, align: center, bold: true, italic: false, underline: false}
-    type: Link
-    layout_properties: {grid_position: 'MFZOWY,KJQTIT'}
-    event_bindings: {click: title_click}
+  event_bindings: {click: title_click}
