@@ -1,8 +1,8 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html', visible: true, background: 'theme:Secondary
-      700', foreground: ''}
+  properties: {html: '@theme:standard-page.html', visible: true, background: 'theme:Gray
+      50', foreground: ''}
 components:
 - type: ColumnPanel
   properties: {}
@@ -25,7 +25,7 @@ components:
     type: Link
     layout_properties: {}
 - name: title
-  properties: {text: 'TANUKI PIXELS ', align: left, bold: true, italic: false, underline: false,
+  properties: {text: ᴛᴀɴᴜᴋɪ ᴘɪxᴇʟꜱ, align: left, bold: true, italic: false, underline: false,
     foreground: 'theme:Black', icon: '', font: ''}
   type: Link
   layout_properties: {slot: title}

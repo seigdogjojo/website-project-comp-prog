@@ -1,10 +1,11 @@
 allow_embedding: false
-package_name: Material_Design_1
+package_name: Website_Project_COMP_PROG
 startup: {type: form, module: BASE}
-name: Material Design 1
+name: Website Project COMP PROG
 startup_form: null
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {title: Tanuki Pixels, logo_img: 'asset:output-onlinegiftools.gif'}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
