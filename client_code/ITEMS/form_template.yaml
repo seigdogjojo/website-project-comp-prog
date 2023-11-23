@@ -6,7 +6,7 @@ components:
   layout_properties: {grid_position: 'GJYIES,BYOPOD'}
   components:
   - name: label_1
-    properties: {text: ITEMS HERE BABYYYY}
+    properties: {text: waray pa baligya ngadi dong}
     type: Label
     layout_properties: {grid_position: 'OABOGI,WUZEVQ'}
 is_package: true

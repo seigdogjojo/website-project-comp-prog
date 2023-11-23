@@ -6,7 +6,7 @@ components:
   layout_properties: {grid_position: 'TSSVZH,GKOTFI'}
   components:
   - name: label
-    properties: {text: MY CART SUCCESS}
+    properties: {text: carti b}
     type: Label
     layout_properties: {grid_position: 'JJDHSN,BZXYVD'}
 is_package: true
