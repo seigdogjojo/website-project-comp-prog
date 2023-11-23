@@ -19,13 +19,14 @@ components:
         500', font_size: 15}
     type: Link
     layout_properties: {}
+    event_bindings: {click: cart_click}
   - name: signin
     properties: {text: Sign in, icon: 'fa:sign-in', spacing_above: small, spacing_below: small,
       col_spacing: medium, foreground: 'theme:Secondary 500', font_size: 15}
     type: Link
     layout_properties: {}
 - name: title
-  properties: {text: ᴛᴀɴᴜᴋɪ ᴘɪxᴇʟꜱ, align: left, bold: true, italic: false, underline: false,
+  properties: {text: ᴛᴀɴᴜᴋɪ ᴘɪxᴇʟꜱ, align: center, bold: true, italic: false, underline: false,
     foreground: 'theme:Black', icon: '', font: ''}
   type: Link
   layout_properties: {slot: title}
