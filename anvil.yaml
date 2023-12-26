@@ -50,3 +50,4 @@ db_schema:
     - name: signed_up
       admin_ui: {width: 200}
       type: datetime
+uplink_visible: true
