@@ -5,7 +5,8 @@ unique_ids:
     ITEMS: '1700754504141248537965765.07193'
     MYCART: '1700756871393959041664455.4965'
   modules: {}
-  server_modules: {}
+  server_modules:
+    ServerModule1: '1703592388082433548802798.2912'
   assets:
     orange purple minimalist happy shop logo_2.png: '1700754111508620132219282.4744'
     orange purple minimalist happy shop logo.png: '1700753898191788619663362.2764'
