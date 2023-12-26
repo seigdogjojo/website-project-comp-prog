@@ -1,3 +1,4 @@
+correct_dependency_ids: {}
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
@@ -18,34 +19,34 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 metadata: {title: Tanuki Pixels, logo_img: 'asset:orange purple minimalist happy shop
     logo-logo.png', description: it mag click hini na link mahuhuck ang fb}
-startup_form: null
+startup_form: BASE
 db_schema:
   users:
+    title: Users
     client: none
     server: full
     columns:
     - name: email
-      admin_ui: {order: 0, width: 200}
+      admin_ui: {width: 200}
       type: string
     - name: enabled
-      admin_ui: {order: 1, width: 200}
+      admin_ui: {width: 200}
       type: bool
     - name: last_login
-      admin_ui: {order: 2, width: 200}
+      admin_ui: {width: 200}
       type: datetime
     - name: password_hash
-      admin_ui: {order: 3, width: 200}
+      admin_ui: {width: 200}
       type: string
     - name: n_password_failures
-      admin_ui: {order: 4, width: 200}
+      admin_ui: {width: 200}
       type: number
     - name: confirmed_email
-      admin_ui: {order: 5, width: 200}
+      admin_ui: {width: 200}
       type: bool
     - name: remembered_logins
-      admin_ui: {order: 6, width: 200}
+      admin_ui: {width: 200}
       type: simpleObject
     - name: signed_up
-      admin_ui: {order: 7, width: 200}
+      admin_ui: {width: 200}
       type: datetime
-    title: Users
