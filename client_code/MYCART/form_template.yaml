@@ -9,11 +9,6 @@ components:
     properties: {text: waray gihap ngadi}
     type: Label
     layout_properties: {grid_position: 'JJDHSN,BZXYVD'}
-- name: image_1
-  properties: {visible: true, source: _/theme/8f6554cb903bd02e8bdf7926c96e0d68.jpg,
-    height: 514}
-  type: Image
-  layout_properties: {grid_position: 'KGQMKL,CXXXGI'}
 - name: headline_1
   properties: {role: headline, bold: true, align: center, text: text_box}
   type: Label
