@@ -12,5 +12,17 @@ class ITEMS(ITEMSTemplate):
   def __init__(self, **properties):
     # Set Form properties and Data Bindings.
     self.init_components(**properties)
+    self.load_items()
+
+    def load_items(self):
+      items = anvil.server.call("get_item_details").search()
+
+
+
+
+
+    
+
+
 
     # Any code you write here will run before the form opens.

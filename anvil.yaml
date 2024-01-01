@@ -72,5 +72,8 @@ db_schema:
     - name: id_name
       admin_ui: {width: 200, order: 4}
       type: string
+    - name: video
+      admin_ui: {width: 200, order: 5}
+      type: media
     title: Items
 uplink_visible: true
